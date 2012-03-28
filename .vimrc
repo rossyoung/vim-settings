@@ -46,6 +46,13 @@ set wildmode=longest:full
 set wildmenu                  " menu has tab completion
 let maplocalleader=','        " all my macros start with ,
 set laststatus=2
+nnoremap <F5> :GundoToggle<CR>
+vnoremap <F6> :Tab /=<CR>
+map <F8> :!php -l %<CR>
+
+nnoremap <F11> :set invpaste paste?<CR>
+set pastetoggle=<F11>
+set showmode
 
 "  searching
 "  set incsearch                 " incremental search

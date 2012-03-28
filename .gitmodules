@@ -4,3 +4,6 @@
 [submodule "bundle/tabular"]
 	path = bundle/tabular
 	url = https://github.com/godlygeek/tabular.git
+[submodule "/root/.vim/bundle/gundo"]
+	path = /root/.vim/bundle/gundo
+	url = http://github.com/sjl/gundo.vim.git
