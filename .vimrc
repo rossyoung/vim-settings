@@ -1,5 +1,14 @@
 call pathogen#infect()
 syntax on
+
+set nocp
+set esckeys
+set nowrap
+set bs=indent,eol,start     " Backspace over everything in insert mode
+set laststatus=2
+set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
+autocmd BufReadPost fugitive://* set bufhidden=delete
+
 set term=xterm
 set background=dark
 set ruler                     " show the line number on the bar
