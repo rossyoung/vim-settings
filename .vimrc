@@ -8,6 +8,7 @@ set bs=indent,eol,start     " Backspace over everything in insert mode
 set laststatus=2
 set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
 autocmd BufReadPost fugitive://* set bufhidden=delete
+autocmd VimResized * wincmd =
 
 set term=xterm
 set background=dark
