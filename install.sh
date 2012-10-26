@@ -1,3 +1,4 @@
+echo "\nInstalling...\n\n"
 git clone git://github.com/rossyoung/vim-settings.git ~/.vim > /dev/null 2>&1;
 rm -f ~/.vimrc > /dev/null 2>&1;
 ln -s ~/.vim/.vimrc ~/.vimrc > /dev/null 2>&1;
