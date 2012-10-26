@@ -12,7 +12,6 @@ autocmd VimResized * wincmd =
 
 set term=xterm
 set background=dark
-colorscheme solarized
 set ruler                     " show the line number on the bar
 set more                      " use more prompt
 set autoread                  " watch for file changes
