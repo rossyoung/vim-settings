@@ -8,10 +8,9 @@ Quick Installation
 
 For quick installation, simply run the following command.
 
-    git clone git://github.com/rossyoung/vim-settings.git ~/.vim; \ 
-    rm -f ~/.vimrc &> /dev/null; ln -s ~/.vim/.vimrc ~/.vimrc; \
-    (cd ~/.vim && git submodule init && git submodule update); \
-    echo -e "\n\nInstallation of VIM settings complete.\n\n"
+    curl -L https://raw.github.com/rossyoung/vim-settings/master/install.sh | sh
+or
+    wget --no-check-certificate https://raw.github.com/rossyoung/vim-settings/master/install.sh -O - | sh
 
 Detailed Installation
 ---------------------
