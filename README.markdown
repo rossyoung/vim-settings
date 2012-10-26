@@ -9,7 +9,9 @@ Quick Installation
 For quick installation, simply run the following command.
 
     curl -L https://raw.github.com/rossyoung/vim-settings/master/install.sh | sh
+
 or
+
     wget --no-check-certificate https://raw.github.com/rossyoung/vim-settings/master/install.sh -O - | sh
 
 Detailed Installation
